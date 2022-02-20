@@ -5,7 +5,7 @@
 
 Step 1: Create Folder Dockerfile and a Dockerfile
 
-![DockerFile](/Create-folder-dockerfile-and-dockerfile.png)
+![DockerFile](/create-folder-dockerfile-and-dockerfile.png)
 
 Step 2: Write some commands in Dockerfile
 
