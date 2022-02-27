@@ -24,6 +24,21 @@
 ![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/two-roles-2.png)
 
 ![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/two-roles.png)
+##### Chỉ cần 1 role làm assume role nên chọn role-NAME_1. 
+##### Bị sai dòng AWS nên update lại
+
+![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/assume_role_update.png)
+
+#### Kiểm tra kết quả assume role
+
+![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-2-result.png)
+
+![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-2-result-2.png)
+
+![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-2-result-3.png)
+
+
+### EC2
 
 #### Tạo Instance EC2
 
