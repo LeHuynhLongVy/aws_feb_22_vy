@@ -19,6 +19,12 @@
 
 ![policy-2](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/policy-for-iam-user-NAME_2.png)
 
+#### Check permission của 2 tk IAM
+![iam-vy-1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-1-ec2-deny.png)
+
+![iam-vy-1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-2-s3-deny.png)
+
+
 #### Tạo ROLE NAME 1 và NAME 2
 
 ![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/two-roles-2.png)
