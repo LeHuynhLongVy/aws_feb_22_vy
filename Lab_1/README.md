@@ -11,7 +11,7 @@
 
 ![AWS-IAM-ACCOUNT-1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-1-created-copy.png)
 
-![AWS-IAM-ACCOUNT-2](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-2-created.png)
+![AWS-IAM-ACCOUNT-2](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-2-created-copy.png)
 
 #### Policy của NAME 1 và NAME 2
 
