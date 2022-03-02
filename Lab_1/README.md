@@ -105,12 +105,18 @@
 ![policy](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/gan.png)
 
 #### Check lại kết quả
-![policy](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/check-result.png)
+![result](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/check-result.png)
 
-![policy](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/check-2.png)
+![result](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/check-2.png)
 
-![policy](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/check-3.png)
+![result](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/check-3.png)
 
 ### Tạo EC2 và login SSH 
 #### Hiện tại bị báo lỗi không thể launch instance 
-![policy](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/error-a-truc.png)
+![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/error-a-truc.png)
+
+
+# UPDATE
+## Long Vy
+### SSH to EC2 instance successfully
+![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-ssh-thanh-cong.png)
