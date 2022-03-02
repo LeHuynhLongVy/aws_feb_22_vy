@@ -130,10 +130,10 @@
 ![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-role-NAME_2-cant-s3-ls.png)
 
 ### Thuc hien assume role role-NAME_1 va chuyen qua assume role do
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/.vy-assume-role-and-switch-to-it.png)
+![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-assume-role-and-switch-to-it.png)
 
 ### AWS S3 LS ok
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/.vy-aws-s3-ls-ok.png)
+![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-aws-s3-ls-ok.png)
 
 
 
