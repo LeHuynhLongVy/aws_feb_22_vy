@@ -5,7 +5,7 @@
 
 ### IAM USER
 
-#### Tạo IAM USER NAME 1 và NAME 2
+#### Create IAM USER
 
 ![AWS-IAM-ACCOUNT](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/2-iam-users.png)
 
@@ -13,29 +13,33 @@
 
 ![AWS-IAM-ACCOUNT-2](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-2-created-copy.png)
 
-#### Policy của NAME 1 và NAME 2
+#### IAM ccount and role's policy
 
 ![policy-1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/policy-for-iam-user-NAME_1.png)
 
 ![policy-2](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/policy-for-iam-user-NAME_2.png)
 
-#### Check permission của 2 tk IAM
+#### IAM account and role's permission
 ![iam-vy-1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-1-ec2-deny.png)
 
 ![iam-vy-1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-2-s3-deny.png)
 
 
-#### Tạo ROLE NAME 1 và NAME 2
+#### Create role role-NAME_1 and role-NAME_2
 
 ![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/two-roles-2.png)
 
 ![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/two-roles.png)
-##### Chỉ cần 1 role làm assume role nên chọn role-NAME_1. 
-##### Bị sai dòng AWS nên update lại
 
-![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/assume_role_update.png)
+#### Trust relationship of role role-NAME_1
 
-#### Kiểm tra kết quả assume role
+![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-trust-entity-role-NAME_1.png)
+
+### Trust relationship of role role-NAME_2
+
+![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-trust-entity-role-NAME_2.png)
+
+#### Check the result when use assume role for iam-vy-2
 
 ![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-2-result.png)
 
@@ -43,29 +47,32 @@
 
 ![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/iam-vy-2-result-3.png)
 
-
 ### EC2
 
-#### Tạo Instance EC2
+#### Create Instance EC2
 
 ![EC2](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/ec2-t2-micro.png)
 
 ![EC2](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/ec2-created-copy.png)
 
-#### Copy key file của EC2 sang ubuntu wsl
+#### SSH to EC2 instance successfully
+![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-ssh-thanh-cong.png)
 
-![wsl](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/lay-ec2-key-file-sang-ubuntu.png)
+#### Set role-NAME_2 for ec2 instance
+![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-set-role-name2-cho-ec2.png)
 
-#### Thử ssh
+#### Default role of ec2 instance is role-NAME_2 so it can't call AWS S3 LS
+![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-ssh-then-cant-s3.png)
 
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/key_permission_error.png)
+![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-role-NAME_2-cant-s3-ls.png)
 
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/try-fix.png)
+#### Assume role role-NAME_1 for ec2 instance and switch to it
+![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-assume-role-and-switch-to-it.png)
 
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/key_permission_error-not-FIXED.png)
+#### AWS S3 LS ok
+![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-aws-s3-ls-ok.png)
 
-#### Tạo cái ec2 mới với cái phần security là anywhere
-![error](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/new_ec2_instance_still_not_work.png)
+
 
 
 ## Truc
@@ -115,25 +122,6 @@
 #### Hiện tại bị báo lỗi không thể launch instance 
 ![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/error-a-truc.png)
 
-
-# UPDATE
-## Long Vy
-### SSH to EC2 instance successfully
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-ssh-thanh-cong.png)
-
-### Set role cho ec2 instance la role-NAME_2
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-set-role-name2-cho-ec2.png)
-
-### Khi ở mặc định ec2 là role-NAME_2 thì không thể aws s3 ls được
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-ssh-then-cant-s3.png)
-
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-role-NAME_2-cant-s3-ls.png)
-
-### Thuc hien assume role role-NAME_1 va chuyen qua assume role do
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-assume-role-and-switch-to-it.png)
-
-### AWS S3 LS ok
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-aws-s3-ls-ok.png)
 
 
 
