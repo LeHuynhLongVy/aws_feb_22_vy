@@ -27,9 +27,9 @@
 
 #### Create role role-NAME_1 and role-NAME_2
 
-![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/two-roles-2.png)
+![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-info-role-NAME_1.png)
 
-![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/two-roles.png)
+![roles](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-info-role-NAME_2.png)
 
 #### Trust relationship of role role-NAME_1
 
