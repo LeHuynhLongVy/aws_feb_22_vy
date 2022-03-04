@@ -2,7 +2,6 @@
 
 ## Long Vy
 
-
 ### IAM USER
 
 #### Create IAM USER
@@ -71,60 +70,3 @@
 
 #### AWS S3 LS ok
 ![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/vy-aws-s3-ls-ok.png)
-
-
-
-
-## Truc
-
-### Tạo IAM User và gán Permission Policy để giới hạn quyền 
-
-##### KITA 1
-![KITA1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/KITA1-1.png)
-
-![KITA1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/KITA1-2.png)
-
-##### KITA 2
-![KITA1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/KITA2-1.png)
-
-![KITA1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/KITA2-2.png)
-
-#### Kiểm tra kết quả truy cập service của các User IAM
-##### KITA_1 deny EC2 allow S3
-![KITA1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/KITA1-3.png)
-
-![KITA1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/KITA1-4.png)
-
-##### KITA_2 deny S3 allow EC2 
-
-![KITA1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/KITA2-3.png)
-
-![KITA1](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/KITA2-4.png)
-
-#### AssumeRole để User KITA_2 được có thể truy cập với quyền của KITA_1 
-##### Tạo Policy Assume Role  
-![policy](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/policy-assume-role.png)
-
-##### Tạo Role Assume Role 
-![policy](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/role-assume-role.png)
-
-#### Gán Policy Assume Role vào IAM User KITA_2 
-![policy](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/gan.png)
-
-#### Check lại kết quả
-![result](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/check-result.png)
-
-![result](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/check-2.png)
-
-![result](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/check-3.png)
-
-### Tạo EC2 và login SSH 
-#### Hiện tại bị báo lỗi không thể launch instance 
-![ssh](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_1/error-a-truc.png)
-
-
-
-
-
-
-
