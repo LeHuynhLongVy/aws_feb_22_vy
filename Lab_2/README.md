@@ -122,7 +122,32 @@
 
 #### Create a CloudWatch dashboard:
 
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/49-create-dashboard.png)
 
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/50-download-clouwatch-agent.png)
 
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/51-add-cw-agent-server-policy.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/52-add-logs-policy.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/54-run-wizard.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/53.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/55-install-required-package.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/56-install-require-package.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/57-get-mem.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/58-check-cloudwatch.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/59-result.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/60-result.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/61-create-log-filter.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/62-done.png)
 
 
