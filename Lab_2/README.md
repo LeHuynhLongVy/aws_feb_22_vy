@@ -51,7 +51,7 @@
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/16-detach-lostssh-vol.png)
 
-![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/17-reattach-lotssh-vol-to-lostssh-instance)
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/17-reattach-lotssh-vol-to-lostssh-instance.png)
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/18-successfull-reattach.png)
 
