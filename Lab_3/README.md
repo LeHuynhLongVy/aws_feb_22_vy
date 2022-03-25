@@ -52,4 +52,4 @@
 #### Fix the security group
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_3/14-fix-sec-group.png)
 
-![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_3/11-ping-ok.png)
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_3/15-ping-ok.png)
