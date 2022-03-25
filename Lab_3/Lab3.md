@@ -45,6 +45,7 @@
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/12.png)
 
 #### Try ssh and ping the other
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/13-can-ping-google.png)
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab_2/13-SSH-OK-CANT-PING.png)
 
