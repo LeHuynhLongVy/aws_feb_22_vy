@@ -166,9 +166,9 @@
 #### EC2 in public subnet us1a with public ip
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/21-ec2-public-1a.png)
 
-![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/20.1.png)
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/21.1.png)
 
-![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/20.1.1.png)
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/21.1.1.png)
 
 #### EC2 in public subnet us1b with public ip
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/22-ec2-public-1b.png)
