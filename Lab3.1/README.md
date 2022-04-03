@@ -67,7 +67,7 @@
 
 #### Create Elastic IP address
 
-![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/11.png) 
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/11.0.png) 
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/11.1.png)
 
@@ -109,6 +109,7 @@
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/14.1.1.png)
 
+
 #### Create route table for private subnet us-east-1a
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/14.2.png)
@@ -117,12 +118,20 @@
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/14.4.png)
 
+#### Create route table for public/private subnet us-east-1b/1c
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/14.5-create-rt-for-the-others.png)
+
 #### Add route for public us-east-1a rt
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/15-create-route-for-public-rt.png)
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/15.1.png)
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/17.png)
+
+#### Add route for public us-east-1b/1c rt
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/15-create-route-for-public-1b-1c.png)
+
 
 #### Add route for private us-east-1a rt
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/16-create-route-for-private-rt.png)
@@ -131,12 +140,45 @@
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/17.1.png)
 
+#### Add route for private us-east-1b/1c rt
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/16-create-route-for-private-1b-1c.png)
+
 #### Associate public rt to public subnet
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/18.0-associate-public-rt-to-public-subnet.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/18.0.1.png)
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/18.1.png)
 
 #### Associate private rt to private subnet
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/19.png)
 
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/19.0.1.png)
+
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/19.1.png)
+
+#### Create security group that allow ssh port 22 and tcp port 80
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/20.0.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/20.4.png)
+
+#### Create EC2
+#### EC2 in public subnet us1a with public ip
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/21-ec2-public-1a.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/21.1.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/21.1.1.png)
+
+#### EC2 in public subnet us1b with public ip
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/22-ec2-public-1b.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/22.1.png)
+
+#### EC2 in private subnet us1a
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/23-ec2-private-1a.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/23.1.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/24.png)
