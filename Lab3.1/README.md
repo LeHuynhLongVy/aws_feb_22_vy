@@ -1,7 +1,7 @@
 # Lab 3: 
 
 ## Long Vy
-
+### Task 1
 ### Create VPC
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/1.png)
@@ -157,6 +157,7 @@
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/19.1.png)
 
+### Task 2,3
 #### Create security group that allow ssh port 22 and tcp port 80
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/20.0.png)
 
@@ -182,3 +183,12 @@
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/23.1.png)
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/24.png)
+
+
+#### SSH to EC2 in subnet public_us_1a and then ssh to EC2 in subnet private_us_1a and ping google
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/25.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/25.1.png)
+
+#### Task 4
