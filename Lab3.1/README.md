@@ -67,7 +67,7 @@
 
 #### Create Elastic IP address
 
-![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/11.png) 
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/11.0.png) 
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/11.1.png)
 
