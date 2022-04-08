@@ -191,4 +191,46 @@
 
 ![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/25.1.png)
 
+#### Task 3b
+##### Update security group rules
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/26.png)
+
+##### Turn on DNS hostnames for vpc
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/28.png)
+
+##### Create 3 endpoints
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/29.png)
+
+##### EC2 in database subnet 1a
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/30.png)
+
+##### Can SSM to the EC2
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/31.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/32.png)
+
+
 #### Task 4
+
+##### Create peering connection
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/33-task4-peering.png)
+
+##### Wait for accept from Vinh
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/34.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/34-r.png)
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/35.png)
+
+
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/36.1.png)
+
+##### Add route to peering connection to Vinh for datbase subnet 
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/37.png)
+
+##### SSM to EC2 in database subnet and try to ping to Vinh's EC2
+![image](https://github.com/LeHuynhLongVy/aws_feb_22_vy/blob/main/Lab3.1/38.png)
+
+
+
+
